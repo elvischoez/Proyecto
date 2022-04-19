@@ -21,6 +21,7 @@ body{
     margin-bottom: 60px;
 
 }
+
 /* header */
 header{
     width: 100%;
@@ -148,8 +149,12 @@ header .textos-header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    
 
+}
+.imagen-port :hover{
+    transform: translate(10px, 10px);
 }
 
 .gallery__img{
