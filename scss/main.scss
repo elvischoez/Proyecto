@@ -1,0 +1,88 @@
+main{
+    .galeria{
+        background:  #c7c0c0;   
+    }
+    .imagen-port{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        grid-gap: 20px;
+    }
+    .imagen-port :hover{
+        transform: translate(10px, 10px);
+    }
+    .gallery__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contenedor-servicios{
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .contenedor-reseña{
+        text-align: center;
+        font-size: 30px;
+        color: #776161;
+    }
+    .contenedor-listas{
+        text-align: center;
+        font-size: 30px;
+    }
+    .imagen-profesiones{
+        width: 48%;
+    }
+    .contenido-textos{
+        width: 48%;
+    }
+    .contenido-textos h3{
+        margin-bottom: 15px;
+    }
+    .contenido-textos h3 span{
+        background: rgb(94, 55, 55);
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        margin-right: 5px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cards .card{
+        background: rgb(36, 30, 30);
+        display: flex;
+        width: 46%;
+        height: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+    
+    }
+    .cards .card img{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: block;
+    }
+    .cards .card > .contenido-texto-card{
+        width: 60%;
+        color: #fff;
+    }
+    .cards .card > .contenido-texto-card p{
+        font-weight: 300;
+        padding-top: 5px;
+    }
+    .contenedor-video{
+        display: flexbox;
+        justify-content: center;
+    }
+}
